@@ -1,0 +1,118 @@
+.main-container {
+  float: left;
+  width: 100%;
+  height: 100%; }
+
+.logo {
+  float: left;
+  width: 100%;
+  height: 60px;
+  background-color: #000; }
+
+.header {
+  float: left;
+  width: 100%;
+  height: 70px;
+  background-image: url("http://api.flim-flamming.com/assets/images/bg-top.jpg"); }
+
+.header-text {
+  float: left;
+  width: 35%;
+  height: 70px;
+  color: #fff;
+  font-family: SearchFont; }
+
+.header-logo {
+  float: left;
+  width: 65%;
+  height: auto;
+  overflow: visible;
+  opacity: 1; }
+
+.catalogue {
+  float: left;
+  width: 100%;
+  overflow: visible;
+  background-color: #fff;
+  margin-top: 30px;
+  margin-left: 30px; }
+
+.logo-image {
+  width: 20%;
+  height: 60px;
+  float: left;
+  background-image: url("http://api.flim-flamming.com/assets/images/flim-flam-logo.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
+
+.logo-search {
+  width: 80%;
+  height: 100px;
+  float: left; }
+
+.design-bar {
+  width: 70%;
+  height: 100px;
+  float: left; }
+
+.search-bar {
+  width: 30%;
+  height: 100px;
+  float: left; }
+
+.search-area {
+  width: 95%;
+  height: 30px;
+  float: left;
+  margin-top: 10px;
+  font-family: SearchFont; }
+
+.catalogue-display {
+  float: left;
+  width: 30%;
+  height: 300px;
+  padding-left: 5px;
+  overflow-y: auto;
+  word-wrap: break-word; }
+
+.product-heading {
+  color: #26a2e5; }
+
+.product-item-code {
+  font-weight: bold;
+  font-size: 12px; }
+
+.product-description {
+  font-size: 10px;
+  color: #736f6e;
+  font-style: italic; }
+
+.product-price {
+  color: #e50000;
+  font-size: 14px; }
+
+.catalogue-heading {
+  width: 100%;
+  font-size: 16px;
+  font-family: SearchFont;
+  border-bottom: 1px solid #a1a1a1; }
+
+@font-face {
+  font-family: SearchFont;
+  src: url(flimflam.woff2) format("woff2"), url(flimflam.woff) format("woff"), url(flimflam.ttf) format("truetype"), url(flimflam.eot) format("eot"); }
+.right-inner-addon {
+  position: relative; }
+
+.right-inner-addon input {
+  padding-right: 30px; }
+
+.right-inner-addon i {
+  position: absolute;
+  right: 0px;
+  padding: 10px 12px;
+  cursor: pointer; }
+
+.main-logo {
+  height: 100px; }
+
+/*# sourceMappingURL=flim.css.map */
